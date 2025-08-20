@@ -26,3 +26,13 @@ This will use the `debezium/postgres:9.6` image to start a new container where t
     mvn release:clean
     mvn release:prepare -DignoreSnapshots=True -Darguments="-DskipTests -DskipITs -Dmaven.javadoc.skip=true"
     mvn release:perform -DignoreSnapshots=True -Darguments="-DskipTests -DskipITs -Dmaven.javadoc.skip=true"
+
+## DEV Notes
+
+1. The commit messages should always have one of the following prefixes:
+    - fix
+    - improv
+    - doc
+    - misc
+
+  So if there is a commit, ensure that the commit message looks like `fix: commit message`
