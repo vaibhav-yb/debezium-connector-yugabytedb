@@ -36,3 +36,6 @@ generated-sources
 .factorypath
 .idea/
 dependency-reduced-pom.xml
+
+# Directories
+logs
